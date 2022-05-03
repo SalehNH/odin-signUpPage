@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div>
+        <div class="fill left col-md-5">
+            <!-- <img src="./images/photo.jpg" alt="an image"> -->
+            <div class="logo">
+                <img src="./images/logo.png" alt="logo" class="logoImage col-md-5">
+                <p class="logoName col-md-7">Saleh</p>
+            </div>
+            <p class="credit">Photo By <span style="text-decoration: underline;">Halie West</span></p>
+        </div>
+        <div class="fill right col-md-7">
+            <div class="someText">
+            <p class="firstP">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+            <p class="secondP">Sign up now to get started</p>
+            </div>
+
+            <p class="thirdP">You know you want to.</p>
+
+            <div class="divsForm">
+                <form>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" class="form-control" id="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control invalid" id="password">
+                            <div style="color: red;">
+                                * password do not match
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" class="form-control" id="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="number" class="form-control" id="phoneNumber">
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmationPasswprd">Confirmation Password</label>
+                            <input type="password" class="form-control invalid" id="Confirmation">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <button class="btn btn-primary creatAccountButton">Create Account</button>
+
+            <p class="forthP">Already have an accounnt? <a href="#" class="link">Login</a></p>
+
+        </div>
+    </div>
+    
+</body>
+</html>

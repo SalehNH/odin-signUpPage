@@ -1,0 +1,119 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/Lato/Lato-LightItalic.ttf);
+}
+
+body {
+    height: 100vh;
+}
+
+.fill {
+    height: 100vh;
+    padding: 0px;
+}
+
+img {
+    height: 100%;
+}
+
+.credit {
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e7e7e7;
+    font-style: oblique;
+}
+
+.left {
+    display: flex;
+    background-image: url("./images/photo.jpg");
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0 0 0 / 62%);
+    justify-content: center;
+    align-items: center;
+    height: 22vh;
+    width: 100%;
+    margin-top: 17vh;
+    gap: 18px;
+}
+
+.row {
+    margin: 0px;
+}
+
+.logoImage {
+    height: 20vh;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logoName {
+    align-items: center;
+    display: flex;
+    color: white;
+    padding: 0px;
+    font-size: 50px;
+    justify-content: center;
+    width: fit-content;
+    font-family: myFirstFont;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.someText {
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.firstP {
+    margin-bottom: 0px;
+}
+
+.secondP {}
+
+.thirdP {
+    font-style: italic;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.creatAccountButton {
+    width: fit-content;
+    background-color: #406d06;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.theForm {}
+
+.divsForm {
+    padding: 30px;
+    background-color: white;
+}
+
+.forthP {
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.invalid {
+    border: 1px solid red;
+}
